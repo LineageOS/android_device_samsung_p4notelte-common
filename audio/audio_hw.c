@@ -2943,7 +2943,7 @@ static const struct {
     { AUDIO_DEVICE_OUT_AUX_DIGITAL, "aux-digital" },
 
     { AUDIO_DEVICE_IN_BUILTIN_MIC, "builtin-mic" },
-    { AUDIO_DEVICE_IN_BACK_MIC, "back-mic" },
+    { AUDIO_DEVICE_IN_BACK_MIC, "builtin-mic" },
     { AUDIO_DEVICE_IN_WIRED_HEADSET, "headset-in" },
     { AUDIO_DEVICE_IN_ALL_SCO, "sco-in" },
 };
