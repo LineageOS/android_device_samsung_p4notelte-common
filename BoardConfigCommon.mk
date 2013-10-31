@@ -42,5 +42,7 @@ BOARD_BATTERY_DEVICE_NAME := "battery"
 BOARD_CHARGER_RES := device/samsung/p4notelte-common/res/charger
 
 # Recovery
+BOARD_RECOVERY_SWIPE := true
+
 # inherit from the proprietary version
 -include vendor/samsung/p4notelte-common/BoardConfigVendor.mk
