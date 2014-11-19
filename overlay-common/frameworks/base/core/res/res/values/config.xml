@@ -24,10 +24,10 @@
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
 
     <!-- Workaround for devices with broken keyboards -->
-    <bool name="config_forceDisableHardwareKeyboard">true</bool>
+   <!-- <bool name="config_forceDisableHardwareKeyboard">true</bool>-->
 
     <!-- Boolean to enable stylus gestures -->
-    <bool name="config_stylusGestures">true</bool>
+   <!-- <bool name="config_stylusGestures">true</bool>-->
     
     <!-- Set to true if separate software navigation bar is required on this device. -->
     <bool name="config_showNavigationBar">true</bool>
@@ -47,7 +47,7 @@
             16 - App switch
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">0</integer>
+    <!--<integer name="config_deviceHardwareKeys">0</integer>-->
 
     <!-- Enable lockscreen translucent decor -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>

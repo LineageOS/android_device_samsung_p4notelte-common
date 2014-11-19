@@ -66,6 +66,6 @@ PRODUCT_CHARACTERISTICS := tablet
 $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
 
 $(call inherit-product, device/samsung/smdk4412-common/common.mk)
-$(call inherit-product, device/samsung/smdk4412-qcom-common/common.mk)
+#$(call inherit-product, device/samsung/smdk4412-qcom-common/common.mk)
 
 $(call inherit-product-if-exists, vendor/samsung/p4notelte/p4notelte-vendor.mk)
